@@ -49,7 +49,7 @@ print(new_list.iloc[:, 0])
 
 
 plt.bar(new_list.iloc[:,0], new_list.iloc[:,-1])
-plt.xticks(rotation=90, fontsize = 9)
+plt.xticks(rotation=90, fontsize = 10)
 plt.xlabel('Aircraft Model', labelpad=10)
 plt.ylim(bottom=0)
 plt.ylabel('Fuel Per Seat')
