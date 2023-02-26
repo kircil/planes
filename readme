@@ -1,0 +1,4 @@
+This code receives the departure city, arrival city and number of passenger from the user.
+First, it calculates the distance between two cities.
+We then use a database for commercial airplanes by using pandas.
+After that, by using some conditional logic, we plot the most ideal planes for this route.
